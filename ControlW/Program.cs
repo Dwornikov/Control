@@ -9,3 +9,9 @@ Console.Write("Введите элементы массива через зап�
                 j++;
             }
         }
+        Array.Resize(ref output, j);
+
+        Console.WriteLine("Новый массив:");
+        for (int i = 0; i < output.Length; i++) {
+            Console.WriteLine(output[i]);
+        }
